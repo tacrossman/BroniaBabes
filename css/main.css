@@ -1,0 +1,144 @@
+
+body {
+    font: 16px/26px  'Pontano Sans',Helvetica, Helvetica Neue, Arial;
+    margin: 0 20px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* ==========================================================================
+   Custom  styles
+   ========================================================================== */
+
+.right {
+    float: right;
+}
+
+.title {
+    display: inline;
+    margin: 0 16px 0 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+  position: relative;
+    margin: 48px 0 24px 0;
+}
+
+.content {
+    margin: 24px 0 0 0;
+}
+
+.gallery-nav {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 6px 0 0 0;
+}
+
+a.rslides_nav{
+    padding: 4px;
+}
+
+a.rslides_nav:hover {
+    color: #000;
+    background: #fff;
+    padding: 3px;
+    border: 1px solid #000;
+}
+
+a.next {
+    color: #fff;
+    background: #000;
+ }
+
+ .email {
+  display: none;
+ }
+
+
+/* ==========================================================================
+   Responsive Slides 
+   ========================================================================== */
+
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width : 479px) {
+
+    header {
+        margin: 18px 0 0 0;
+    }
+
+    .title {
+      font-size: 1.4em;
+    }
+
+    .content {
+        margin: 18px 0 0 0;
+        display:block;
+    }
+
+    .contact {
+        display: block;
+    }
+
+    .gallery-nav {
+        display: block;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width : 479px) and (max-width : 768px) {
+    header {
+        margin: 18px 0 0 0;
+    }
+        .title {
+      font-size: 1.6em;
+    }
+
+}
+
+
+
