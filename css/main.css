@@ -1,6 +1,6 @@
 
 body {
-    font: 16px/26px  'Pontano Sans',Helvetica, Helvetica Neue, Arial;
+    font: 16px/26px  'Marvel',Helvetica, Helvetica Neue, Arial;
     margin: 0 20px;
 }
 
@@ -20,6 +20,8 @@ a {
 .title {
     display: inline;
     margin: 0 16px 0 0;
+    font-weight: normal;
+    text-transform: uppercase;
 }
 
 .container {
