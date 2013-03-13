@@ -25,6 +25,11 @@ a {
     margin: 0 16px 0 0;
     font-weight: normal;
     text-transform: uppercase;
+    background: #fff;
+}
+
+.original {
+  background: #fff;
 }
 
 .container {
@@ -70,6 +75,7 @@ a.next {
 
  .email {
   display: none;
+  background: #FFF;
  }
 
 /* ==========================================================================
