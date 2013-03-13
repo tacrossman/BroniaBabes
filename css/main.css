@@ -3,7 +3,7 @@
    ========================================================================== */
 
 body {
-    font: 16px/26px  'Marvel',Helvetica, Helvetica Neue, Arial;
+    font: 14px/22px  'Raleway', Helvetica Neue, Arial;
     margin: 0 20px;
 }
 
@@ -35,6 +35,7 @@ a {
 header {
   position: fixed;
   margin: 48px 0 24px 0;
+  z-index: 9999;
 }
 
 .content {
