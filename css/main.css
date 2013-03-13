@@ -83,13 +83,13 @@ a.next {
   float: left;
   list-style: none;
   overflow: hidden;
-  padding:0 40px 0 0;
+  padding:0 16px 0 0;
   margin: 0;
 }
 
 .images li img {
-  width: 800px;
-  height: 640px;
+  width: 600px;
+  height: 480px;
 }
 
 .rslides {
