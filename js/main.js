@@ -10,7 +10,7 @@ $(function() {
 		});
 
     $('.contact').on('mouseenter mouseleave', function(){
-		$(".original").toggle('slow');
-		$('.email').toggle('fast', 'linear');
+		$(".original").toggle();
+		$('.email').toggle();
     });
 });
