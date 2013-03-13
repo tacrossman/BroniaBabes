@@ -41,6 +41,8 @@ header {
   position: fixed;
   margin: 48px 0 24px 0;
   z-index: 9999;
+  padding: 8px;
+  background: #fff;
 }
 
 .content {
@@ -84,6 +86,7 @@ a.next {
 
 .content ul {
   padding: 0px;
+  margin-left: 11px;
 }
 
 .images li {
